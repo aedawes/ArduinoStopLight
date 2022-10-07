@@ -37,7 +37,7 @@ Figure 3
 ## Component View
 There are two main components for this lab.  The first component is the circuit for the stoplight (Figures 4 and 5) and the second is the circuit for the distance sensor (Figures 6 and 7).  Both of the main components use a breadboard and wires to complete the circuits.
 
-The circuit for the stoplight has a few parts.  The main driver of the whole system is the Wemos arduino D1 mini.  This is programmed via computer (code provided in appendix) to run the server and to define the routes connected to each GPIO pin.  Once programmed the arduino only needs to be provided power and it will use wifi to communicate.  There are also some LED lights (red, yellow, and green) that indicate the different distances from the sensor.  The red LED is connected to pin D6, the yellow LED is connected to pin D5, and the green is connected to pin D0.  There are also resistors that are provided so that the LEDs do not blow from too much voltage.  These are connected to the ground wire, connected to the ground pin. Lastly, we have the power source which is connected to the arduino through a micro usb cable.
+The circuit for the stoplight has a few parts.  The main driver of the whole system is the Wemos arduino D1 mini.  This is programmed via computer to run the server and to define the routes connected to each GPIO pin.  Once programmed the arduino only needs to be provided power and it will use wifi to communicate.  There are also some LED lights (red, yellow, and green) that indicate the different distances from the sensor.  The red LED is connected to pin D6, the yellow LED is connected to pin D5, and the green is connected to pin D0.  There are also resistors that are provided so that the LEDs do not blow from too much voltage.  These are connected to the ground wire, connected to the ground pin. Lastly, we have the power source which is connected to the arduino through a micro usb cable.
 
 ![IMG_0024](https://user-images.githubusercontent.com/59840208/194670500-f54c8c80-3a23-429c-b48c-888c636b7f8b.jpeg)
 Figure 4						
@@ -46,7 +46,7 @@ Figure 4
 Figure 5
 
 
-The circuit for the sensor also has a few parts.  Like the stoplight, a Wemos arduino D1 mini is also programmed (code provided in appendix).  This arduino is programmed to read in data from the sensor and send it to the server based on the output of that sensor.  The other part of this circuit is the sensor (HC-SR04) itself.  The sensor will read in data from sending a signal and reading the echo of the sensor.  The last part is a power source which connects to the arduino through a micro usb cable.
+The circuit for the sensor also has a few parts.  Like the stoplight, a Wemos arduino D1 mini is also programmed.  This arduino is programmed to read in data from the sensor and send it to the server based on the output of that sensor.  The other part of this circuit is the sensor (HC-SR04) itself.  The sensor will read in data from sending a signal and reading the echo of the sensor.  The last part is a power source which connects to the arduino through a micro usb cable.
 
 ![IMG_0023](https://user-images.githubusercontent.com/59840208/194670523-3db6dcef-d264-4e30-a762-748dc5178a82.jpeg)
 Figure 6							
